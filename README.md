@@ -27,6 +27,17 @@ In this project, I've implemented 10 transfer learning models from scratch and v
 
 For each model, the architecture is visualized using Graphviz.
 
+```
+Install Graphviz: You can download and install Graphviz from its official website.
+
+Add Graphviz to PATH:
+
+After installing Graphviz, find the bin directory where Graphviz is installed. This directory contains the dot executable.
+Add this directory to your system's PATH environment variable.
+If you're using Windows, you can do this by going to System Properties → Advanced → Environment Variables, then find the PATH variable in the System variables section and edit it to include the Graphviz bin directory.
+If you're using Linux or macOS, you can typically achieve this by adding the directory to your .bashrc or .bash_profile file.
+```
+
 ## Usage:
 - Make sure to have the necessary dependencies installed (e.g., TensorFlow, Keras).
 - Run each cell sequentially to load the models and generate their visualizations.
